@@ -277,6 +277,12 @@
         "version": "1.68.0"
       }
     ],
+    "marus25": [
+      {
+        "name": "cortex-debug",
+        "version": "1.6.0"
+      }
+    ],
     "vscode-icons-team": [
       {
         "name": "vscode-icons",

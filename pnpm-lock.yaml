@@ -63,6 +63,7 @@ specifiers:
   ajv: ^8.11.0
   await-event: ^2.1.0
   buffer: ^6.0.3
+  bufferutil: 4.0.1
   copy-webpack-plugin: ^11.0.0
   cross-env: ^7.0.3
   css-loader: ^6.7.1
@@ -99,58 +100,63 @@ specifiers:
   tsconfig-paths: ^3.8.0
   tsconfig-paths-webpack-plugin: ^3.2.0
   typescript: ^4.6.2
+  utf-8-validate: 5.0.2
   webpack: ^5.72.1
   webpack-cli: ^4.9.1
 
+dependencies:
+  bufferutil: 4.0.1
+  utf-8-validate: 5.0.2
+
 devDependencies:
-  '@opensumi/ide-addons': 2.22.1
+  '@opensumi/ide-addons': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-comments': 2.22.1_react-dom@16.14.0
-  '@opensumi/ide-core-browser': 2.22.1_react-dom@16.14.0
+  '@opensumi/ide-core-browser': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
   '@opensumi/ide-core-common': 2.22.1
   '@opensumi/ide-core-electron-main': 2.22.1_electron@18.3.4
-  '@opensumi/ide-core-node': 2.22.1
-  '@opensumi/ide-debug': 2.22.1_node-gyp@9.1.0
-  '@opensumi/ide-decoration': 2.22.1
-  '@opensumi/ide-editor': 2.22.1_react-dom@16.14.0
-  '@opensumi/ide-electron-basic': 2.22.1
-  '@opensumi/ide-explorer': 2.22.1
-  '@opensumi/ide-extension': 2.22.1_7tjxt7ouwlrspgywuejef67gjm
-  '@opensumi/ide-extension-manager': 2.22.1_7tjxt7ouwlrspgywuejef67gjm
-  '@opensumi/ide-extension-storage': 2.22.1
-  '@opensumi/ide-file-scheme': 2.22.1
-  '@opensumi/ide-file-search': 2.22.1
-  '@opensumi/ide-file-service': 2.22.1
-  '@opensumi/ide-file-tree-next': 2.22.1
+  '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-debug': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+  '@opensumi/ide-decoration': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-editor': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
+  '@opensumi/ide-electron-basic': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-explorer': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-extension': 2.22.1_75d6hpuqdrky66msuwpbiipyya
+  '@opensumi/ide-extension-manager': 2.22.1_75d6hpuqdrky66msuwpbiipyya
+  '@opensumi/ide-extension-storage': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-file-scheme': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-file-search': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+  '@opensumi/ide-file-tree-next': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-i18n': 2.22.1
   '@opensumi/ide-keymaps': 2.22.1
-  '@opensumi/ide-logs': 2.22.1
+  '@opensumi/ide-logs': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-main-layout': 2.22.1_react-dom@16.14.0
-  '@opensumi/ide-markdown': 2.22.1
+  '@opensumi/ide-markdown': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-markers': 2.22.1
   '@opensumi/ide-menu-bar': 2.22.1
-  '@opensumi/ide-monaco': 2.22.1_react-dom@16.14.0
+  '@opensumi/ide-monaco': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
   '@opensumi/ide-monaco-enhance': 2.22.1
   '@opensumi/ide-opened-editor': 2.22.1
   '@opensumi/ide-outline': 2.22.1
   '@opensumi/ide-output': 2.22.1
   '@opensumi/ide-overlay': 2.22.1
   '@opensumi/ide-preferences': 2.22.1
-  '@opensumi/ide-process': 2.22.1
+  '@opensumi/ide-process': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-quick-open': 2.22.1
   '@opensumi/ide-scm': 2.22.1
-  '@opensumi/ide-search': 2.22.1
+  '@opensumi/ide-search': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-static-resource': 2.22.1
-  '@opensumi/ide-status-bar': 2.22.1_react-dom@16.14.0
+  '@opensumi/ide-status-bar': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
   '@opensumi/ide-storage': 2.22.1
-  '@opensumi/ide-task': 2.22.1_node-gyp@9.1.0
-  '@opensumi/ide-terminal-next': 2.22.1_node-gyp@9.1.0
+  '@opensumi/ide-task': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+  '@opensumi/ide-terminal-next': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
   '@opensumi/ide-testing': 2.22.1
   '@opensumi/ide-theme': 2.22.1
   '@opensumi/ide-toolbar': 2.22.1
   '@opensumi/ide-userstorage': 2.22.1
   '@opensumi/ide-variable': 2.22.1
-  '@opensumi/ide-webview': 2.22.1_electron@18.3.4
-  '@opensumi/ide-workspace': 2.22.1
+  '@opensumi/ide-webview': 2.22.1_ug6z7zlsxnwezucm2pbedarxe4
+  '@opensumi/ide-workspace': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
   '@opensumi/ide-workspace-edit': 2.22.1
   '@typescript-eslint/eslint-plugin': 5.35.1_ktjxjibzrfqejavile4bhmzhjq
   '@typescript-eslint/parser': 5.35.1_4rv7y5c6xz3vfxwhbrcxxi73bq
@@ -460,11 +466,11 @@ packages:
       reflect-metadata: 0.1.13
     dev: true
 
-  /@opensumi/ide-addons/2.22.1:
+  /@opensumi/ide-addons/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-w0iaLaT/pXCDFZ7q4/2NgdgjgexacmqNGFo2NpQpfx2xJoCQrT0bseJO6FMNzMJA+MR8uPE909Vb2WJMsM1vQA==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -530,24 +536,24 @@ packages:
       - react-dom
     dev: true
 
-  /@opensumi/ide-connection/2.22.1:
+  /@opensumi/ide-connection/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-gsTpzWy+3l6bikmmd+99wBi9astjr5qEFMlKxYI1du0hUaIB72mlVSImIm0254m39sOStCuKz+oSvvbEyO5bDw==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
       '@opensumi/vscode-jsonrpc': 8.0.0-next.3
       path-match: 1.2.4
       reconnecting-websocket: 4.4.0
-      ws: 8.11.0
+      ws: 8.11.0_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-core-browser/2.22.1_react-dom@16.14.0:
+  /@opensumi/ide-core-browser/2.22.1_gxr5zcfwjo4njpqwpddsldktk4:
     resolution: {integrity: sha512-LJgbCQnmQomiD+iAqHsCRra5cY6O9BRvg0aQh7KyCE0GThzMu6s4MMF/FPUMSCgmutq7V+YkR5mRlaeZrxvGNA==}
     dependencies:
       '@opensumi/ide-components': 2.22.1_wcqkhtmu7mswc6yz4uyexck3ty
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
       '@opensumi/vscode-debugprotocol': 1.49.0-beta.1
       '@vscode/codicons': 0.0.27
@@ -596,10 +602,10 @@ packages:
       tree-kill: 1.2.2
     dev: true
 
-  /@opensumi/ide-core-node/2.22.1:
+  /@opensumi/ide-core-node/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-ELxEMMn9hU/ucn/oij28QeaJXpwpVc572U0NpmlZV7lxMIH2QfmDDJDZqOMrEH/YEjuXXrR3kD1urRFiGSpZ9g==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
       keytar: 7.9.0
     transitivePeerDependencies:
@@ -607,15 +613,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-debug/2.22.1_node-gyp@9.1.0:
+  /@opensumi/ide-debug/2.22.1_27wu7bu34yjxatqkbwv5cjmzau:
     resolution: {integrity: sha512-zJ7tPD43vUdnb+WSNeKxgzECVVycnWWUlqCOaoTSCfWbfUeWhpSZcDiCMZFbTqhiZ5DiTYDroqEsYNkbuwn+pg==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
-      '@opensumi/ide-task': 2.22.1_node-gyp@9.1.0
-      '@opensumi/ide-terminal-next': 2.22.1_node-gyp@9.1.0
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-task': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+      '@opensumi/ide-terminal-next': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
       anser: 1.4.10
       btoa: 1.2.1
     transitivePeerDependencies:
@@ -625,23 +631,23 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-decoration/2.22.1:
+  /@opensumi/ide-decoration/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-ID+XGT2cz93iAafExNLUWZSsjS47I8F4lEW9tMp2zmZfGn5IeQmX9tmqMF52Y/yAWGu2IGuv6z/4trHbJyBkPw==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-editor/2.22.1_react-dom@16.14.0:
+  /@opensumi/ide-editor/2.22.1_gxr5zcfwjo4njpqwpddsldktk4:
     resolution: {integrity: sha512-IV69SxPnHHaGJBbAlNxAxguIZwI8oIQ4mg4izq6OdO6ePbqKohePyJjn0g3HbsVmC/ohLr+k/CPW34eYgr9WmQ==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
-      '@opensumi/ide-monaco': 2.22.1_react-dom@16.14.0
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-monaco': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
       '@opensumi/ide-utils': 2.22.1
       vscode-oniguruma: 1.5.1
     transitivePeerDependencies:
@@ -651,33 +657,33 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-electron-basic/2.22.1:
+  /@opensumi/ide-electron-basic/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-SNpKjAXIMyO5jvtSt6Xw9rj1scIvRvTO8KTqFSdVvnP04iFPvFYu20zcFJWYI9jsbEsd+9hZSDyb5DvkJuNnFg==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-utils': 2.22.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-explorer/2.22.1:
+  /@opensumi/ide-explorer/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-T4pj5XTypwAmBckRjcwECZZit4dGqifzLK6Xh1vsNkwcdajM4VzTeqId+gJJaf/rBn/POn+YPKTCvjZ5An+yzQ==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-extension-manager/2.22.1_7tjxt7ouwlrspgywuejef67gjm:
+  /@opensumi/ide-extension-manager/2.22.1_75d6hpuqdrky66msuwpbiipyya:
     resolution: {integrity: sha512-CdwDmixqm+410WSrSlt+7wgvs3KHtbDSDNUzzYwK675QoUUpjLsUMZg5eJe51bWcUskTwgIxr6eyYiERoY7nhQ==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-extension': 2.22.1_7tjxt7ouwlrspgywuejef67gjm
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-extension': 2.22.1_75d6hpuqdrky66msuwpbiipyya
       '@opensumi/ide-static-resource': 2.22.1
       compressing: 1.6.2
       fs-extra: 10.1.0
@@ -693,33 +699,33 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-extension-storage/2.22.1:
+  /@opensumi/ide-extension-storage/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-+KCGZ8bUcdlNWMPvfYHsR8RSb5VWTQB6xD4UsICZ41AjXGTNkG+DhLRaMarpt5rWj7TYS3IsnyRhgCjwAaQHbw==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
-      '@opensumi/ide-logs': 2.22.1
-      '@opensumi/ide-workspace': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-logs': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-workspace': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-extension/2.22.1_7tjxt7ouwlrspgywuejef67gjm:
+  /@opensumi/ide-extension/2.22.1_75d6hpuqdrky66msuwpbiipyya:
     resolution: {integrity: sha512-aHKsYIgyqBRLjaDCgWbnJUU6JlmdV7nOBtMYWt0MUJhdhwZFVQaPhto4kK29eLacsS9Qg+zaHAWKssG3WNx9Jw==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-debug': 2.22.1_node-gyp@9.1.0
-      '@opensumi/ide-file-search': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
-      '@opensumi/ide-logs': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-debug': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+      '@opensumi/ide-file-search': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-logs': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-static-resource': 2.22.1
-      '@opensumi/ide-task': 2.22.1_node-gyp@9.1.0
-      '@opensumi/ide-terminal-next': 2.22.1_node-gyp@9.1.0
-      '@opensumi/ide-webview': 2.22.1_electron@18.3.4
+      '@opensumi/ide-task': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+      '@opensumi/ide-terminal-next': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
+      '@opensumi/ide-webview': 2.22.1_ug6z7zlsxnwezucm2pbedarxe4
       '@opensumi/vscode-jsonrpc': 8.0.0-next.3
       address: 1.2.0
       glob-to-regexp: 0.4.1
@@ -727,7 +733,7 @@ packages:
       picomatch: 2.3.1
       semver: 6.3.0
       tree-kill: 1.2.2
-      v8-inspect-profiler: 0.0.20
+      v8-inspect-profiler: 0.0.20_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - electron
@@ -736,12 +742,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-file-scheme/2.22.1:
+  /@opensumi/ide-file-scheme/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-/sNYaoeGg6Mve1Qd6wzzm7kd2Oj8na+GOp2AbonxTh8RsJWxyi4KPKd+EzoK4Vphfyl+6UPc2UFhWGnnOR9uMw==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-static-resource': 2.22.1
     transitivePeerDependencies:
       - bufferutil
@@ -749,12 +755,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-file-search/2.22.1:
+  /@opensumi/ide-file-search/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-tUKUx75GSBZA0xZVqJJugqCgm6zq86OHafu/1YzG6BkxGLLzzgKeDo4I/leX3cGxwRQERYvqZZ+dEhqSP0xsiQ==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-process': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-process': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/vscode-ripgrep': 1.4.0
       fuzzy: 0.1.3
     transitivePeerDependencies:
@@ -762,13 +768,13 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-file-service/2.22.1:
+  /@opensumi/ide-file-service/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-JnRNYWo+TciYC8gUjpehIbVX6nokIxg+GweYVGhCdqzSiFkBuXCxy5eRWzeALXMrEtb9/v9qLLMlkQv9SUiCgA==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-logs': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-logs': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@parcel/watcher': 2.1.0
       drivelist: 6.4.6
       file-type: 12.4.2
@@ -781,11 +787,11 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-file-tree-next/2.22.1:
+  /@opensumi/ide-file-tree-next/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-CXqve08x0+g92SadGiedtwTh48Bwa+jYWy52AtX1j5lVOGFlDKgHHcA3KbR+86NQlB0B5htcA9r3+NndDJnj7g==}
     dependencies:
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -804,12 +810,12 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-logs/2.22.1:
+  /@opensumi/ide-logs/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-0gcrPHyrorZDzd61DWE3o+7qfeqHGwNd1Ksb0NOqhLwy1jTPVlkVoVPn2WMhw9swYfunXnJi5b2wd/5bOC2yPg==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       compressing: 1.6.2
       spdlog: 0.9.0
     transitivePeerDependencies:
@@ -827,11 +833,11 @@ packages:
       - react-dom
     dev: true
 
-  /@opensumi/ide-markdown/2.22.1:
+  /@opensumi/ide-markdown/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-IbqTmhOzCrjNPDkEZjEWzHLhmfIf3cO8oWyocGoNCnRbvg6QNi8OOaPDSAi346MGkUnle0XRYKv0sAPQuvdzXw==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -855,10 +861,10 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-monaco/2.22.1_react-dom@16.14.0:
+  /@opensumi/ide-monaco/2.22.1_gxr5zcfwjo4njpqwpddsldktk4:
     resolution: {integrity: sha512-SgnKVMVLRnNx9WA1GrqsSOaTheNQMLrDETWkXtOWbL6vjOAYOv7zykq+nRuYVtgOV6fnQu8K4FUZvpLIlmuqUg==}
     dependencies:
-      '@opensumi/ide-core-browser': 2.22.1_react-dom@16.14.0
+      '@opensumi/ide-core-browser': 2.22.1_gxr5zcfwjo4njpqwpddsldktk4
       '@opensumi/ide-core-common': 2.22.1
       '@opensumi/monaco-editor-core': 0.35.0-patch.3
     transitivePeerDependencies:
@@ -894,11 +900,11 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-process/2.22.1:
+  /@opensumi/ide-process/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-2lEVBGH3DnuVk0qk7kmCrMz6GvK/V+y0WjRs/tXuqavEBtOR/qfHQYh0EssmQhEMnoq1OQfdaGfuAVwgk+8w4w==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -916,14 +922,14 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-search/2.22.1:
+  /@opensumi/ide-search/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-OVxxmgbP+3p+CJzFGmwG/oskXBFbabQCL3JK+iMjaST5wyV3WUcfJR3ly+2uJlPcD6UNjNLychhxDKW9DA4ojQ==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-logs': 2.22.1
-      '@opensumi/ide-process': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-logs': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-process': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/vscode-ripgrep': 1.4.0
     transitivePeerDependencies:
       - bufferutil
@@ -934,12 +940,12 @@ packages:
     resolution: {integrity: sha512-fm4+WGFZXEHAgQZ2snPfm89qdMk/sSyF6LBPpgI/wML9dtQuM7ALMJxUGFmWVgyYTlFPp5kubA46mVtocHnzmg==}
     dev: true
 
-  /@opensumi/ide-status-bar/2.22.1_react-dom@16.14.0:
+  /@opensumi/ide-status-bar/2.22.1_gxr5zcfwjo4njpqwpddsldktk4:
     resolution: {integrity: sha512-5g5iEHO9kR5mNPn53PB9Zt+B4yIe7PLX767PD6g4kBolgEs62hm/ZYkUSXaID5K5oCtiAoiBLjjSd6ykxl8FFA==}
     dependencies:
       '@opensumi/ide-components': 2.22.1_react-dom@16.14.0
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-theme': 2.22.1
     transitivePeerDependencies:
       - bufferutil
@@ -954,12 +960,12 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-task/2.22.1_node-gyp@9.1.0:
+  /@opensumi/ide-task/2.22.1_27wu7bu34yjxatqkbwv5cjmzau:
     resolution: {integrity: sha512-XiLMs5W0yoqYHUdfmz4QBYB264apVlbw3DA143Ct/DPotM1IDctUAR/UOwRVubsIpttk76mbWsynbC9ggZ4N0A==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-terminal-next': 2.22.1_node-gyp@9.1.0
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-terminal-next': 2.22.1_27wu7bu34yjxatqkbwv5cjmzau
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
@@ -967,13 +973,13 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@opensumi/ide-terminal-next/2.22.1_node-gyp@9.1.0:
+  /@opensumi/ide-terminal-next/2.22.1_27wu7bu34yjxatqkbwv5cjmzau:
     resolution: {integrity: sha512-dxBnQddHSpOfGFG5RvnH3W27B9zPu/0kbaPhZf7BVuZBKgpSeNWrSfQm6a5IjOHO/StmyozAOXBcalXsZ+yPPg==}
     dependencies:
-      '@opensumi/ide-connection': 2.22.1
+      '@opensumi/ide-connection': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       event-kit: 2.5.3
       node-pty: 0.11.0-beta19_node-gyp@9.1.0
       os-locale: 4.0.0
@@ -1029,13 +1035,13 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-webview/2.22.1_electron@18.3.4:
+  /@opensumi/ide-webview/2.22.1_ug6z7zlsxnwezucm2pbedarxe4:
     resolution: {integrity: sha512-J2ezCVYkD4Tt/0GISZXc9zPWjWNm8h7a5TYxtmWtZhrfc75HNhRoTmLEIDzuUK0b5Xa/+o1nXO6qLP236a9m4g==}
     peerDependencies:
       electron: '*'
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-core-node': 2.22.1
+      '@opensumi/ide-core-node': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
       electron: 18.3.4
     transitivePeerDependencies:
       - bufferutil
@@ -1048,11 +1054,11 @@ packages:
       '@opensumi/ide-core-common': 2.22.1
     dev: true
 
-  /@opensumi/ide-workspace/2.22.1:
+  /@opensumi/ide-workspace/2.22.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-ydbyYGObVLMbN5vwFzAZ8Z1xfLErY+FRCQ79g8MYIXFC5O0ogQ6/cwuEDRmzXWM2voYukHDdPtppUofUhwQnvg==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.1
-      '@opensumi/ide-file-service': 2.22.1
+      '@opensumi/ide-file-service': 2.22.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -2066,6 +2072,12 @@ packages:
       ieee754: 1.2.1
     dev: true
 
+  /bufferutil/4.0.1:
+    resolution: {integrity: sha512-xowrxvpxojqkagPcWRQVXZl0YXhRhAtBEIq3VoER1NH5Mw1n1o0ojdspp+GS2J//2gCVyrzQDApQ4unGF+QOoA==}
+    requiresBuild: true
+    dependencies:
+      node-gyp-build: 3.7.0
+
   /builder-util-runtime/9.0.3:
     resolution: {integrity: sha512-SfG2wnyjpUbbdtpnqDpWwklujofC6GarGpvdWrEkg9p5AD/xJmTF2buTNaqs3qtsNBEVQDDjZz9xc2GGpVyMfA==}
     engines: {node: '>=12.0.0'}
@@ -2215,12 +2227,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chrome-remote-interface/0.26.1:
+  /chrome-remote-interface/0.26.1_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-ela482aJK0riFu05sl+zdbnb3ezMiqzwsqf/f/27HngWds+Fat3vcZWpIoDoeQuWMid/+LfKAteAYWaWPqsweg==}
     hasBin: true
     dependencies:
       commander: 2.11.0
-      ws: 3.3.3
+      ws: 3.3.3_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -5304,6 +5316,10 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
+  /node-gyp-build/3.7.0:
+    resolution: {integrity: sha512-L/Eg02Epx6Si2NXmedx+Okg+4UHqmaf3TNcxd50SF9NQGcJaON3AtU++kax69XV7YWz4tUspqZSAsVofhFKG2w==}
+    hasBin: true
+
   /node-gyp-build/4.5.0:
     resolution: {integrity: sha512-2iGbaQBV+ITgCz76ZEjmhUKAKVf7xfY1sRl4UiKQspfZMH2h06SyhNsnSVy50cwkFQDGLyif6m/6uFXHkOZ6rg==}
     hasBin: true
@@ -8000,6 +8016,12 @@ packages:
       os-homedir: 1.0.2
     dev: true
 
+  /utf-8-validate/5.0.2:
+    resolution: {integrity: sha512-SwV++i2gTD5qh2XqaPzBnNX88N6HdyhQrNNRykvcS0QKvItV9u3vPEJr+X5Hhfb1JC0r0e1alL0iB09rY8+nmw==}
+    requiresBuild: true
+    dependencies:
+      node-gyp-build: 3.7.0
+
   /utf8-byte-length/1.0.4:
     resolution: {integrity: sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==}
     dev: true
@@ -8022,10 +8044,10 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /v8-inspect-profiler/0.0.20:
+  /v8-inspect-profiler/0.0.20_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-AFLVT7GLCvTcw0HszhwxD1GCBboIeZSxqlk0myNXVLIfjelLl8rybm8KmRjoYcWH7uXqMC0qwhKk7Vj4wppiFQ==}
     dependencies:
-      chrome-remote-interface: 0.26.1
+      chrome-remote-interface: 0.26.1_kkikpkvxmmmxcjmodpiri5lsly
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -8284,7 +8306,7 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
-  /ws/3.3.3:
+  /ws/3.3.3_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-nnWLa/NwZSt4KQJu51MYlCcSQ5g7INpOrOMt4XV8j4dqTXdmlUmSHQ8/oLC069ckre0fRsgfvsKwbTdtKLCDkA==}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -8296,11 +8318,13 @@ packages:
         optional: true
     dependencies:
       async-limiter: 1.0.1
+      bufferutil: 4.0.1
       safe-buffer: 5.1.2
       ultron: 1.1.1
+      utf-8-validate: 5.0.2
     dev: true
 
-  /ws/8.11.0:
+  /ws/8.11.0_kkikpkvxmmmxcjmodpiri5lsly:
     resolution: {integrity: sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -8311,6 +8335,9 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+    dependencies:
+      bufferutil: 4.0.1
+      utf-8-validate: 5.0.2
     dev: true
 
   /xdg-basedir/2.0.0:
